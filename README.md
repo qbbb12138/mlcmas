@@ -28,6 +28,6 @@ Function: Implements an improved **Voting ensemble model** to classify and predi
 
 4_Visualization_Spatial  
 Visualize how **CRG** varies across the feature space with **3D trends** and **2D slice localization**.  
-- **3D Trend Map**: Run `plot_heatmap_3d.m` to generate the overall CRG distribution across (X, Y, Z).  
-- **Filter by Range**: Run `filter_xyz.m` to crop the dataset within user-defined coordinate ranges.  
-- **2D Slice Map**: Run `plot_heatmap_2d.m` to plot CRG heatmaps on the (X–Y) plane while fixing one axis.  
+- **3D Trend Map**: Run `plot_heatmap_3d` to generate the overall CRG distribution across (X, Y, Z).  
+- **Filter by Range**: Run `filter_xyz` to crop the dataset within user-defined coordinate ranges.  
+- **2D Slice Map**: Run `plot_heatmap_2d` to plot CRG heatmaps on the (X–Y) plane while fixing one axis.  
