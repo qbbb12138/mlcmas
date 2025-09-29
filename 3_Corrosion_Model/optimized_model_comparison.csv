@@ -1,0 +1,14 @@
+Model,Features,MSE,RMSE,R2,Best Params
+XGBoost,PCA,14.660158723495062,3.8288586711310018,0.8515942159077694,"{'colsample_bytree': 0.9, 'learning_rate': 0.05, 'max_depth': 7, 'min_child_weight': 5, 'n_estimators': 200, 'subsample': 1.0}"
+XGBoost (Baseline),All,27.760738667609477,5.2688460470590215,0.7189761538977462,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}"
+XGBoost,All,28.44395106451761,5.333287078764616,0.7120599483247337,"{'colsample_bytree': 0.9, 'learning_rate': 0.05, 'max_depth': 7, 'min_child_weight': 5, 'n_estimators': 200, 'subsample': 1.0}"
+Gradient Boosting,All,32.511949867841224,5.701925101914372,0.6708793196917057,"{'learning_rate': 0.05, 'max_depth': 7, 'n_estimators': 100, 'subsample': 0.9}"
+Gradient Boosting,PCA,45.23932324065123,6.726018379446434,0.542039253192334,"{'learning_rate': 0.05, 'max_depth': 7, 'n_estimators': 100, 'subsample': 0.9}"
+Random Forest,All,60.32480898806514,7.766904723766421,0.38932785470186837,"{'max_depth': None, 'min_samples_split': 10, 'n_estimators': 200}"
+Linear Regression,PCA,72.71869609276783,8.527525789627834,0.2638636923817018,{}
+Random Forest,PCA,72.99065060168243,8.543456595645724,0.26111067838682567,"{'max_depth': None, 'min_samples_split': 10, 'n_estimators': 200}"
+Decision Tree,All,79.52324129411765,8.917580461880771,0.19498081839351378,{}
+Support Vector Regression,All,86.20074055419633,9.284435392321729,0.1273840391117811,"{'C': 10, 'gamma': 0.01, 'kernel': 'rbf'}"
+Support Vector Regression,PCA,86.30580283797234,9.290091648523836,0.12632048646570293,"{'C': 10, 'gamma': 0.01, 'kernel': 'rbf'}"
+Decision Tree,PCA,147.30223311764706,12.136813136801896,-0.49115052685795835,{}
+Linear Regression,All,2004.092954701973,44.76709678661297,-19.28756931939651,{}

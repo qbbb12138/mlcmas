@@ -1,0 +1,2 @@
+Model,Features,MSE,RMSE,R2,Params
+XGBoost (Baseline),All,35.73604345,5.977963152,0.733478544,"{'n_estimators': 100, 'max_depth': 3, 'learning_rate': 0.1}"

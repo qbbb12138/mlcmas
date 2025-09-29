@@ -1,0 +1,4 @@
+Chosen Model: XGBoost
+Features: PCA
+Best Params: {'colsample_bytree': 0.9, 'learning_rate': 0.05, 'max_depth': 7, 'min_child_weight': 5, 'n_estimators': 200, 'subsample': 1.0}
+Test RMSE: 3.828859, Test R2: 0.851594
