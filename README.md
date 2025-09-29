@@ -1,6 +1,6 @@
 # mlcmas
 Data-driven prediction of RESs' anti-CMAS corrosion performance.
-
+As per the reviewer’s request, both the CMAS and phase prediction have been upgraded with a 5-fold cross-validation (CV) model. We suggest that, based on our high-throughput experimental data, it is necessary to expand the training dataset by adding more than 20 additional data points and perform localized fine-tuning and validation within the range of experimental composition elements. The CRG results are directly computed, and their temperature dependence is roughly represented by the CMAS viscosity. It is possible to flexibly redefine the function, which is expected to yield better and more interpretable results.
 **Environment**
 - Python = 3.9
 
